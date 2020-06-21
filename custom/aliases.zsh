@@ -1,6 +1,7 @@
 # git
 alias gs="git status"
 alias gch="git checkout"
+alias gcb="git branch | fzf | xargs git checkout"
 
 # neovim
 alias n="nvim"
