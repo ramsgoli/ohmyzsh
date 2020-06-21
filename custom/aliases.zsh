@@ -13,4 +13,5 @@ alias ta="tmux attach-session -t"
 alias tk="tmux kill-session -t"
 
 # ranger
+disable r
 alias r="ranger"
