@@ -11,3 +11,6 @@ alias tls="tmux ls"
 alias tn="tmux new-session -s"
 alias ta="tmux attach-session -t"
 alias tk="tmux kill-session -t"
+
+# ranger
+alias r="ranger"
