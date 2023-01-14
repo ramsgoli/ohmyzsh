@@ -1,8 +1,8 @@
 # git
 alias gs="git status"
-alias gch="git checkout"
-alias gcb="git branch | fzf | xargs git checkout"
+alias gsb="git branch | fzf | xargs git switch"
 alias gdb="git branch | fzf -m | xargs git branch -D"
+alias gsod="git switch --detach origin/develop"
 
 # neovim
 alias n="nvim"
